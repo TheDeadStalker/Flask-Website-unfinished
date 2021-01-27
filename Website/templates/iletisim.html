@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/iletisim.css" rel="stylesheet" type="text/css">
+    <!--<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">-->
+    <title>Bize Ulaşın</title>
+</head>
+<body>
+    <div id="navbar">
+        <div style="padding: 10px">
+            <button id="h1but" onclick="redirect('/')">Türkçe Python Öğren</button>
+            <button id="hakkimizda"class="navbut" onclick="redirect('/hakkimizda')">Hakkımızda</button>
+            <button id="yardim"class="navbut" onclick="redirect('/yardim')">Yardım</button>
+            <button id="blog"class="navbut" onclick="redirect('/blog')">Bloglar</button>
+            <button id="iletisim"class="navbut" onclick="redirect('/iletisim')">İletişim</button>
+        </div> 
+        <button id="insta" class="insta" onclick="redirect('https://discord.gg/fHPRsx3CNA')"><img style="background-color: transparent;"id="discord"src="https://e7.pngegg.com/pngimages/408/238/png-clipart-pink-and-blue-illustration-discord-computer-icons-logo-user-internet-bot-discord-icon-purple-angle.png"></button>
+        <button id="insta" class="insta" onclick="redirect('https://www.instagram.com/dervisogluberky/?hl=tr')"><img id="insta"src="https://cdn.discordapp.com/attachments/750609049808273483/779402374157828106/insta.jpg"></button>
+    </div>
+    <h1 style="font-size:100px; text-align:center;">Bize Ulaşın</h1>   
+    <div id="iletisim"> 
+        <div style="padding: 15px;">    
+            <form action="/iletisim" method="POST"> 
+                <input placeholder="Buraya gelişmemiz için geri dönüşlerinizi önerilerinizi yazabilirsiniz."type="text" name="mesaj" style="width: 80%; height: 50px; font-size: 24px; border: 1px solid black; border-radius: 10px; margin-left: 50px;margin-top: 50px;padding-bottom: 6px;">
+                <button type="submit"class="button" style="vertical-align:middle" onclick="durt('Başarı ile mesajınız iletildi. Teşkkür ederiz. Sizleri buraya tekrardan bekleriz. İyi günler.')"><span>Gönder </span></button>
+            </form>
+        </div>
+    </div>
+    <script src="static/app.js" text="script/JavaScript"></script>
+</body>
+</html>

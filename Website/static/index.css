@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg");
+    background-size: cover;
+    background-size: fill;
+    background-attachment: fixed;
+}
+#heading div {
+    background-color: black;
+    width: device-width;
+    height: auto;
+}
+#navbar div {
+   /* background-color: black;*/
+    width: device-width;
+    height: auto;
+}
+.light {
+    /*background-color : black;*/
+    color : lightskyblue;
+}
+hr.green {
+    border : 3px solid white;
+    border-radius: 2px;
+}
+.navBut {
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  width: 85px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 60px;
+  transition-duration: 0.4s;
+  float: right;
+  margin-right: 5px;
+}
+.navBut:hover {
+    border: 3px solid black;
+}
+#big h1{
+    font-size: 50px;
+}
+.dayp {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+.daypinput {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: -100;
+    left: 0;
+}

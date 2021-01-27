@@ -1,0 +1,33 @@
+#navbar div{
+    background-color: transparent;
+}
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2020/11/18/10/41/train-5754933_960_720.jpg");
+    background-size: cover;
+    background-size: fill;
+    background-attachment: fixed;
+    }
+.navbut {
+    float: right;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 90px;
+    height: 45px;
+    border-radius: 55px;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+}
+.navbut:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+#h1but {
+    background-color: transparent;
+    color: black;
+    width: 250px;
+    height: 60px;
+    border: 2px solid transparent;
+    font-size: 24px;
+}
